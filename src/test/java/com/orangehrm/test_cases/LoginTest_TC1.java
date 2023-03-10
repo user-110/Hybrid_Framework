@@ -11,18 +11,10 @@ import com.orangehrm.object_repository.HomePage;
 import com.orangehrm.object_repository.LoginPage;
 import com.orangehrm.utility.ReadFromExcel;
 
-/**
- * @author AmirP :
- * Scenario : Validating the login functionality
- *
- *
- */
 public class LoginTest_TC1 extends BaseClass {
-
 
 	LoginPage login;
 	HomePage homepage;
-
 
 	@Test(dataProvider = "supplyData")
 	public void loginToApplication(String Username, String Password) throws InterruptedException {
@@ -47,7 +39,5 @@ public class LoginTest_TC1 extends BaseClass {
 
 		return read.readData();
 	}
-
-
 
 }

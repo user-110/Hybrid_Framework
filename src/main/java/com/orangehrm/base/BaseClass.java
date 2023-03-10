@@ -13,10 +13,6 @@ import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-/**
- * @author AmirP : Base Class consists all the initialization methods and configurations 
- *
- */
 public class BaseClass {
 
 	public static WebDriver driver;
@@ -32,12 +28,10 @@ public class BaseClass {
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		}
-		else if (browserName.equalsIgnoreCase("FireFox")) {
+		} else if (browserName.equalsIgnoreCase("FireFox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		}
-		else if (browserName.equalsIgnoreCase("Edge")) {
+		} else if (browserName.equalsIgnoreCase("Edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		}
