@@ -1,31 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-08T15:58:58 IST" name="Suite" finished-at="2023-03-08T16:00:25 IST" duration-ms="87187">
+  <suite started-at="2023-03-13T20:02:46 IST" name="Suite" finished-at="2023-03-13T20:03:57 IST" duration-ms="71199">
     <groups>
     </groups>
-    <test started-at="2023-03-08T15:58:58 IST" name="Test" finished-at="2023-03-08T16:00:25 IST" duration-ms="87187">
-      <class name="com.orangehrm.test_cases.MyInforPageTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.MyInforPageTest@bae7dc0]" started-at="2023-03-08T16:00:02 IST" name="openBrowser" finished-at="2023-03-08T16:00:06 IST" duration-ms="3905" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="verifyMyInfo()[pri:0, instance:com.orangehrm.test_cases.MyInforPageTest@bae7dc0]" started-at="2023-03-08T16:00:06 IST" name="verifyMyInfo" finished-at="2023-03-08T16:00:25 IST" duration-ms="18765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMyInfo -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.MyInforPageTest@bae7dc0]" started-at="2023-03-08T16:00:25 IST" name="closeBrowser" finished-at="2023-03-08T16:00:25 IST" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.orangehrm.test_cases.MyInforPageTest -->
+    <test started-at="2023-03-13T20:02:46 IST" name="Test" finished-at="2023-03-13T20:03:57 IST" duration-ms="71199">
       <class name="com.orangehrm.test_cases.LoginTest_TC1">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:00 IST" name="openBrowser" finished-at="2023-03-08T15:59:06 IST" duration-ms="6339" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:02:47 IST" name="openBrowser" finished-at="2023-03-13T20:02:57 IST" duration-ms="10143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:06 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-08T15:59:16 IST" duration-ms="9841" status="PASS">
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:02:57 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-13T20:03:07 IST" duration-ms="9719" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:16 IST" name="closeBrowser" finished-at="2023-03-08T15:59:16 IST" duration-ms="194" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:07 IST" name="closeBrowser" finished-at="2023-03-13T20:03:07 IST" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:16 IST" name="openBrowser" finished-at="2023-03-08T15:59:21 IST" duration-ms="5310" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:07 IST" name="openBrowser" finished-at="2023-03-13T20:03:14 IST" duration-ms="6473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:21 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-08T15:59:31 IST" duration-ms="9298" status="FAIL">
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:14 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-13T20:03:23 IST" duration-ms="9452" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -72,7 +58,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:38)
+at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -107,15 +93,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:31 IST" name="closeBrowser" finished-at="2023-03-08T15:59:31 IST" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:24 IST" name="closeBrowser" finished-at="2023-03-13T20:03:24 IST" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:31 IST" name="openBrowser" finished-at="2023-03-08T15:59:38 IST" duration-ms="6451" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:24 IST" name="openBrowser" finished-at="2023-03-13T20:03:29 IST" duration-ms="4979" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:38 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-08T15:59:47 IST" duration-ms="9389" status="FAIL">
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:29 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-13T20:03:38 IST" duration-ms="9395" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -138,7 +124,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:38)
+at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -173,15 +159,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:47 IST" name="closeBrowser" finished-at="2023-03-08T15:59:48 IST" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:39 IST" name="closeBrowser" finished-at="2023-03-13T20:03:39 IST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:48 IST" name="openBrowser" finished-at="2023-03-08T15:59:53 IST" duration-ms="4965" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:39 IST" name="openBrowser" finished-at="2023-03-13T20:03:47 IST" duration-ms="8089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T15:59:53 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-08T16:00:02 IST" duration-ms="9222" status="FAIL">
+        <test-method signature="loginToApplication(java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:47 IST" name="loginToApplication" data-provider="supplyData" finished-at="2023-03-13T20:03:56 IST" duration-ms="9333" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -204,7 +190,7 @@ at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
 at org.testng.Assert.assertTrue(Assert.java:55)
-at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:38)
+at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:30)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -239,7 +225,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@76c3e77a]" started-at="2023-03-08T16:00:02 IST" name="closeBrowser" finished-at="2023-03-08T16:00:02 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.orangehrm.test_cases.LoginTest_TC1@6d4e5011]" started-at="2023-03-13T20:03:57 IST" name="closeBrowser" finished-at="2023-03-13T20:03:57 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

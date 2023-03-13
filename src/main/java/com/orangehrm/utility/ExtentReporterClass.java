@@ -30,7 +30,7 @@ public class ExtentReporterClass {
 
 		report.setSystemInfo("OS", "Windows");
 		report.setSystemInfo("Application URL", prop.getProperty("baseUrl"));
-		report.setSystemInfo("Tester", "AmirP");
+		report.setSystemInfo("Tester", "Random_tester");
 		report.setSystemInfo("Browser Name", prop.getProperty("browser"));
 
 		// returning report to whoever is calling this method will get this report

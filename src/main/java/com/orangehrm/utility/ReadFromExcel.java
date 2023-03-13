@@ -11,7 +11,7 @@ public class ReadFromExcel {
 
 	public String[][] readData() throws IOException {
 
-		String excelFilePath = "D:\\Login_Data.xlsx";
+		String excelFilePath = "Test_Data\\Login_Data.xlsx";
 		File file = new File(excelFilePath);
 		FileInputStream fis = new FileInputStream(file);
 		XSSFWorkbook wb = new XSSFWorkbook(fis);

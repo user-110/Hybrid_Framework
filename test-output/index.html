@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                    <span class="method-stats">4 methods, 3 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -131,11 +131,6 @@
                         <a href="#" panel-name="suite-Suite" title="com.orangehrm.test_cases.LoginTest_TC1" class="method navigator-link" hash-for-method="loginToApplication(Admin, admin123)">loginToApplication(Admin, admin123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.test_cases.MyInforPageTest" class="method navigator-link" hash-for-method="verifyMyInfo">verifyMyInfo</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -161,7 +156,7 @@
                   <span class="method-name">loginToApplication</span>
                   <span class="parameters">(User2, xyz123)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:38)
+	at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -174,7 +169,7 @@
                   <span class="method-name">loginToApplication</span>
                   <span class="parameters">(RandomUser, abc123)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:38)
+	at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -187,7 +182,7 @@
                   <span class="method-name">loginToApplication</span>
                   <span class="parameters">(User3, lmno123)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:38)
+	at com.orangehrm.test_cases.LoginTest_TC1.loginToApplication(LoginTest_TC1.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -211,21 +206,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.orangehrm.test_cases.MyInforPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyMyInfo">
-                  </a> <!-- verifyMyInfo -->
-                  <span class="method-name">verifyMyInfo</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -242,7 +222,6 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.orangehrm.test_cases.LoginTest_TC1&quot;/&gt;
-      &lt;class name=&quot;com.orangehrm.test_cases.MyInforPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -256,7 +235,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -282,32 +261,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyMyInfo')
-data.setCell(0, 2, 'com.orangehrm.test_cases.MyInforPageTest')
-data.setCell(0, 3, 18765);
+data.setCell(0, 1, 'loginToApplication')
+data.setCell(0, 2, 'com.orangehrm.test_cases.LoginTest_TC1')
+data.setCell(0, 3, 9719);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginToApplication')
 data.setCell(1, 2, 'com.orangehrm.test_cases.LoginTest_TC1')
-data.setCell(1, 3, 9841);
+data.setCell(1, 3, 9452);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginToApplication')
 data.setCell(2, 2, 'com.orangehrm.test_cases.LoginTest_TC1')
-data.setCell(2, 3, 9389);
+data.setCell(2, 3, 9395);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginToApplication')
 data.setCell(3, 2, 'com.orangehrm.test_cases.LoginTest_TC1')
-data.setCell(3, 3, 9298);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginToApplication')
-data.setCell(4, 2, 'com.orangehrm.test_cases.LoginTest_TC1')
-data.setCell(4, 3, 9222);
+data.setCell(3, 3, 9333);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 56 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -340,68 +315,53 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginToApplication(Admin, admin123)</span>
-                <span class="method-start">6342 ms</span>
+                <span class="method-start">10145 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">16188 ms</span>
+                <span class="method-start">19871 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">16382 ms</span>
+                <span class="method-start">20173 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginToApplication(RandomUser, abc123)</span>
-                <span class="method-start">21692 ms</span>
+                <span class="method-start">26646 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">31359 ms</span>
+                <span class="method-start">36487 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">31527 ms</span>
+                <span class="method-start">36696 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginToApplication(User2, xyz123)</span>
-                <span class="method-start">37978 ms</span>
+                <span class="method-start">41675 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">47708 ms</span>
+                <span class="method-start">51414 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">47879 ms</span>
+                <span class="method-start">51628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginToApplication(User3, lmno123)</span>
-                <span class="method-start">52844 ms</span>
+                <span class="method-start">59717 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">62419 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.orangehrm.test_cases.MyInforPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">openBrowser</span>
-                <span class="method-start">62641 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyMyInfo</span>
-                <span class="method-start">66546 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">85313 ms</span>
+                <span class="method-start">69382 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
